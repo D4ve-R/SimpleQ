@@ -1,0 +1,30 @@
+{
+  "name": "simpleq",
+  "version": "1.0.0",
+  "description": "Simple implementation of a Queue",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare" : "npm run build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4ve-R/SimpleQ.git"
+  },
+  "keywords": [
+    "Queue",
+    "SimpleQ"
+  ],
+  "author": "D4ve-R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D4ve-R/SimpleQ/issues"
+  },
+  "homepage": "https://github.com/D4ve-R/SimpleQ#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
